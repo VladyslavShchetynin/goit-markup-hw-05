@@ -548,38 +548,66 @@ img {
   max-width: 264px;
 }
 
+/* Form */
+.form-footer {
+}
+.form-subscribe {
+  margin-bottom: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.form {
+  display: flex;
+}
+.form-label {
+  gap: 24px;
+}
+.form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+.form-icon {
+  margin-left: 16px;
+}
+
 /* Modal window */
 .backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  border-radius: 4px;
-  background: #fcfcfc;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .backdrop .is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
 }
 
 .modal {
-  position: relative;
-
-  width: 408px;
-  min-height: 584px;
-  padding: 24px;
-  padding-top: 72px;
-  border-radius: 4px;
-  background-color: #fcfcfc;
 }
 .modal-btn {
 }
