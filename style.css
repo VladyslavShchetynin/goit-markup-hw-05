@@ -788,10 +788,30 @@ img {
   fill: transparent;
 }
 
-.check-span:checked {
+input:checked + label > span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+}
+
+.chek-link {
+  color: #4d5ae5;
+}
+
+.check-btn {
+  min-width: 169px;
+  height: 56px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+}
+.check-span:checked {
 }
 
 .check-icon {
