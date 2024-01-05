@@ -714,6 +714,10 @@ img {
   border-color: #4d5ae5;
 }
 
+input:focus + svg {
+  fill: #4d5ae5;
+}
+
 .name-icon {
   position: absolute;
   left: 16px;
@@ -792,8 +796,12 @@ img {
   fill: #f4f4fd;
 }
 
+input:focus + label > span {
+  border-color: #4d5ae5;
+}
+
 .chek-link {
-  text-decoration: underline;
+  text-decoration-line: underline;
   color: #4d5ae5;
 }
 
