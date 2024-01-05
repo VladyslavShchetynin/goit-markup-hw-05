@@ -800,7 +800,7 @@ input:focus + label > span {
   border-color: #4d5ae5;
 }
 
-.chek-link {
+.check-link {
   text-decoration-line: underline;
   color: #4d5ae5;
 }
