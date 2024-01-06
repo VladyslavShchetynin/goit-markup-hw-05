@@ -478,6 +478,11 @@ img {
   align-items: baseline;
 }
 
+.social-container {
+  margin: 0 auto;
+  margin-right: auto;
+}
+
 .foot-text {
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -522,13 +527,10 @@ img {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
-  /* text-decoration: none; */
 }
 
 .logo-container {
   margin-right: 120px;
-  /* margin-left: 156px;    */
-  /* margin: 0auto; */
 }
 
 .footer-logo-accent {
@@ -583,10 +585,9 @@ img {
   min-width: 165px;
   height: 40px;
   display: flex;
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
@@ -599,7 +600,6 @@ img {
 }
 
 .form-icon {
-  margin-left: 16px;
 }
 
 /* Modal window */
@@ -817,9 +817,9 @@ input:focus + label > span {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
-  transform: translateX(50%);
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .check-span:checked {
